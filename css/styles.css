@@ -181,6 +181,23 @@ font-size: 1.5em;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
     }
+	
+   /*  formulario  */
+	
+    .formulario {
+        grid-template-columns: 1fr;
+    }
+
+    .formulario__mensaje,
+    .formulario__btn-enviar,
+    .formulario-correo {
+        grid-column: 1;
+    }
+
+    .formulario__btn-enviar {
+        width: 100%;
+    }
+
     
 
     /* restaurate */
