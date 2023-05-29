@@ -116,9 +116,7 @@ font-size: 1.5em;
 .receta{
     padding-top: 1em;
 }
-.entrada-blog h4{
-    padding-top: ;
-}
+
 .preparacion li{
     list-style: decimal;
 }
@@ -156,3 +154,38 @@ font-size: 1.5em;
     }
     
 }
+.parrafo-aclaratorio {
+    margin-left: 10vh;
+}
+.resto{
+    width: 90%;
+    display: inline-block;
+    background-color: #85b2dd;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 1em;
+}
+.btn-scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    border: none;
+    background-color: rgba(240, 236, 40, 0.5);
+    color: #0e1df1;
+    cursor: auto;
+    transition: opacity 0.3s;
+  }
+  
+  .btn-scroll-to-top:hover {
+    opacity: 0.8;
+  }
+  
