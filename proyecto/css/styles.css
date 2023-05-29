@@ -207,10 +207,6 @@ h3 {
     display: block;
 }
 
-.formulario__textarea {
-    height: 120px;
-}
-
 .formulario__validacion-estado {
     position: absolute;
     right: 10px;
