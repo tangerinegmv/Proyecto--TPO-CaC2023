@@ -113,14 +113,43 @@ font-size: 1.5em;
 .entrada-blog a:focus, .entrada-blog a:hover {
     background-color: rgb(255, 169, 88);
 }
-.receta{
+.entrada{
     padding-top: 1em;
 }
 
 .preparacion li{
     list-style: decimal;
 }
-
+.btn-scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    border: none;
+    background-color: rgba(240, 236, 40, 0.5);
+    color: #0e1df1;
+    cursor: auto;
+    transition: opacity 0.3s;
+  }
+  
+  .btn-scroll-to-top:hover {
+    opacity: 0.8;
+  }
+  /*  restaurante  */
+  .aclaracion {
+    justify-self: center;
+    border: yellow 0.3em solid;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+  }
+  .mapa{
+    width: 15em;
+    height: 10em;
+  }
 
 @media (min-width:480px) {
     #titulo img{
@@ -153,39 +182,14 @@ font-size: 1.5em;
         column-gap: 2rem;
     }
     
+
+    /* restaurate */
+
+    .mapa{
+        width: 30em;
+        height: 20em;
+    }
+
+
 }
-.parrafo-aclaratorio {
-    margin-left: 10vh;
-}
-.resto{
-    width: 90%;
-    display: inline-block;
-    background-color: #85b2dd;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 1em;
-}
-.btn-scroll-to-top {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
-    font-size: 24px;
-    border: none;
-    background-color: rgba(240, 236, 40, 0.5);
-    color: #0e1df1;
-    cursor: auto;
-    transition: opacity 0.3s;
-  }
-  
-  .btn-scroll-to-top:hover {
-    opacity: 0.8;
-  }
-  
+
