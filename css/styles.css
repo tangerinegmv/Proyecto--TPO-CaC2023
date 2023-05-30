@@ -166,7 +166,8 @@ footer{
     background-color: rgba(240, 236, 40, 0.5);
     color: #0e1df1;
     cursor: auto;
-    transition: opacity 0.3s;
+    transition: opacity 1s ease;
+  
   }
   
   .btn-scroll-to-top:hover {
