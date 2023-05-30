@@ -6,7 +6,8 @@ body{
 
 }
 
-.skip-list li{
+@media (min-width: 320px){
+    .skip-list li{
 	padding: 0.7em;
 	display: flex;
 }
@@ -289,6 +290,8 @@ h3 {
 .formulario__input {
     border: 3px solid #bb2929;
 }
+}
+
 
 @media (min-width:480px) {
     #titulo img{
@@ -349,3 +352,24 @@ h3 {
 
 }
 
+@media (min-width:1440px){
+   #barra-navegacion a{
+    font-size: 2em;
+    text-align: center;
+   }
+    .entrada{
+        font-size: 20px;
+
+    }
+    .entrada-blog h2{
+       padding: 1em;
+       text-align: center;
+    }
+    .dos-columnas{
+       min-width: 98%;
+       max-width: 100%;
+    }
+   .mapa{
+    width: 32em;
+   }
+}
