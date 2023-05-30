@@ -74,9 +74,37 @@ font-size: 1.5em;
 }
 
 .sobreNosotros {
-    margin: 0 30px 0 30px;
-    text-align: justify;
+    width: 100%;
+   color: white;
+   font-size: 2em;
+    padding: 1.5em;
+    text-align: center;
     font-size: 18px;
+    background-color: #b47705;
+}
+.sobreNosotros h2{
+font-weight: bold;
+padding: 2em;
+background-color: #bb5729;
+border-radius: 15PX;
+
+}
+footer{
+    text-align: center;
+    background-color: #BA4A00;
+    color: white;
+    padding: 1em;
+}
+.contactos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contactos a{
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+    padding: 1em;
 }
 
 /* recetas */
