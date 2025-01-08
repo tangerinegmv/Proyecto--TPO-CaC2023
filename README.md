@@ -53,6 +53,6 @@ An exclusive space for blog readers to:
 
 This section is programmed using **JavaScript**.  
 
-##Contact
+## Contact
 ### github: [tangerinegmv](https://github.com/tangerinegmv)
 ### Linkedin: [Maria Victoria Gimenez](https://www.linkedin.com/in/maria-victoria-gimenez/)
